@@ -1,0 +1,9 @@
+VLC Media HTML Stream Settings:
+:sout=#transcode{vcodec=WMV2,vb=800,acodec=wma2,ab=128,channels=2,samplerate=44100,scodec=none} :no-sout-all :sout-keep
+
+Stream to HTML Tutorial:
+http://breakthrusoftware.com/html/onlinedocs/kb/videomill/VLC.html
+
+HTML stream is located at http://IP_ADDR:8080
+
+IP_ADDR can be found by 'ipconfig' in Powershell. Ethernet adapter Ethernet -> Default Gateway
