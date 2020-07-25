@@ -6,4 +6,6 @@ http://breakthrusoftware.com/html/onlinedocs/kb/videomill/VLC.html
 
 HTML stream is located at http://IP_ADDR:8080
 
-IP_ADDR can be found by 'ipconfig' in Powershell. Ethernet adapter Ethernet -> Default Gateway
+IP_ADDR can be found by 'ipconfig' in Powershell. Ethernet adapter Ethernet -> IPv4 Address
+
+Example: python detect.py --weights yolov5s.pt --conf 0.4 --source http://192.168.86.34:8080
